@@ -1,0 +1,13 @@
+# ignore
+## folders
+.vscode
+node_modules
+dist
+coverage
+## files
+*.env*
+
+# exceptions
+## folders
+## files
+!*.env.example*
