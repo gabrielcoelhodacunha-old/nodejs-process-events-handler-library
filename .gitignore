@@ -2,7 +2,6 @@
 ## folders
 .vscode
 node_modules
-dist
 coverage
 ## files
 *.env*
