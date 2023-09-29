@@ -2,10 +2,10 @@
   "name": "process-events-handler",
   "version": "1.0.0",
   "description": "Handles some events and sets up graceful shutdown.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "/dist"
+    "/lib"
   ],
   "engines": {
     "node": ">=18"
