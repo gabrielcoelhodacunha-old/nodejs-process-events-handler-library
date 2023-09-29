@@ -1,5 +1,5 @@
 {
-  "name": "process-events-handler",
+  "name": "@gccunha015/process-events-handler",
   "version": "1.0.0",
   "description": "Handles some events and sets up graceful shutdown.",
   "main": "lib/index.js",
