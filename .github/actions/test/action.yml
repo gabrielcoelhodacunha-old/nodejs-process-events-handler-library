@@ -4,3 +4,4 @@ runs:
   using: composite
   steps:
     - run: npm test
+      shell: bash
