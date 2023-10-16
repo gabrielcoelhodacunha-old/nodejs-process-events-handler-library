@@ -19,9 +19,9 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: test
-        uses: ./.github/actions/test.yml
+        uses: ./.github/actions/test
       - name: build
-        uses: ./.github/actions/build.yml
+        uses: ./.github/actions/build
       - name: publish
         run: npm publish
         env:
