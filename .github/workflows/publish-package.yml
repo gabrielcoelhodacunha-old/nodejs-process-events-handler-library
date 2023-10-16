@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
-      - id: install dependencies
+      - id: install_dependencies
         run: npm ci
       - id: test
         uses: ./.github/actions/test.yml
