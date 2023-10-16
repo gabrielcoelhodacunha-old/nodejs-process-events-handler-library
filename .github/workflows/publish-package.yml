@@ -16,13 +16,13 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
-      - id: install_dependencies
+      - name: install dependencies
         run: npm ci
-      - id: test
+      - name: test
         uses: ./.github/actions/test.yml
-      - id: build
+      - name: build
         uses: ./.github/actions/build.yml
-      - id: publish
+      - name: publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
