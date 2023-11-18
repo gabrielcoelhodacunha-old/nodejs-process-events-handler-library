@@ -1,5 +1,7 @@
 # Node.js Process Events Handler Library
 
+# This repository is ARCHIVED
+
 ## About
 
 Library to create a process events handler and set up graceful shutdown.
